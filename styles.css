@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.portfolio img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.portfolio img:hover {
+    transform: scale(1.1);
+}
+
+.about p {
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 1.2em;
+}
+
+.contact p {
+    font-size: 1.2em;
+}
+
+.pricing-table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.pricing-table th, .pricing-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.pricing-table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.pricing-table td {
+    background-color: #f9f9f9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
